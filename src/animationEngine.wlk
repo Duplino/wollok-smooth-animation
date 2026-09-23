@@ -1,5 +1,6 @@
 /*
  * animationEngine.wlk
+ * https://github.com/Duplino/wollok-smooth-animation
  *
  * Librería de movimiento suave de una celda a otra en Wollok Game.
  *
