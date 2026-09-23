@@ -1,0 +1,27 @@
+import wollok.game.*
+import animationEngine.animationEngine
+import animationEngine.AnimatedSprite
+
+program animationMove {
+	game.title("Pepita")
+	game.height(16)
+	game.width(25)
+	game.cellSize(50)
+	game.boardGround("fondo.png")
+
+	game.addVisual(pepita)
+	pepita.bindArrowKeys()
+
+	animationEngine.start()
+
+	
+
+	
+
+	
+	game.start()
+}
+
+
+object pepita inherits AnimatedSprite(name ="pepita",position = game.at(5, 8)){
+}
