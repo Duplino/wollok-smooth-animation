@@ -1,7 +1,7 @@
 /*
- * sprite.wlk
+ * animationEngine.wlk
  *
- * Movimiento suave de una celda a otra en Wollok Game.
+ * Librería de movimiento suave de una celda a otra en Wollok Game.
  *
  * Wollok dibuja cada visual dentro de una celda y lo mueve de a saltos
  * enteros. Para simular un desplazamiento suave se usan DOS visuales
